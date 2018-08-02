@@ -30,6 +30,6 @@ class Student
 
   def self.create(name:, grade:)
     new(name, grade).tap { |student| student.save }
-  end 
+  end
 
 end
